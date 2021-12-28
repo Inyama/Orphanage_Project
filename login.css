@@ -1,0 +1,117 @@
+body{
+    background-image: linear-gradient(to right,#f7ad0b , #f3741b);
+	margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; 
+}
+hr {
+    border: 1px dotted #fff;
+    border-style: none none dotted; 
+    color: #fff; 
+    margin: 0px 30px
+}
+header h1 {
+    padding-left: 30px;
+}
+.main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+.flex{
+    display: flex;
+    text-transform: uppercase;
+    margin: 10px 10px 10px 21px;
+}
+.shift{
+    margin-left: 36px;
+}
+.height{
+    margin-top: 15px;
+}
+.full{
+    margin-top: 15px;
+}
+dl{
+    margin-left: 20%;
+}
+form{
+    text-align: center;
+}
+.space{
+    padding:10px 15em;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    float: left;
+}
+.login{
+    padding: 10px 5rem;
+    border-radius: 10px;
+    border: 2px solid #f7ad0b ;
+    margin-right: 16em;
+    float:right;
+    background: transparent;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 15px;
+    outline: none;
+}
+.login:hover{
+    background: #f7ad0b ;
+    border: 1px solid #f3741b;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 40px;
+    margin-left: 28px;
+}
+
+@media(max-width:800px){
+    .main{
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .space{
+        padding: 20px 86px;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+        outline: none;
+        margin-left: -54px;
+        text-align: center;
+    }
+    hr {
+        margin: 27px -40px;
+    }
+    .login{
+        margin-right: 29px;
+        padding: 10px 105px;
+        border: 2px solid #f3741b;
+        border-radius: 13px;
+    }
+    .login:hover{
+        background: #f3741b ;
+        border: 1px solid #f3741b;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    body{
+        background:#f7ad0b;
+        line-height: 1.5;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+    } 
+}
